@@ -49,7 +49,6 @@ Casualis Webs
 		<preference name="LoadUrlTimeoutValue" value="50000" />
 		<preference name="disable-cursor" value="true" />
 		<gap:platform name="ios" />
-		<gap:platform name="android" />
 		<feature name="http://api.phonegap.com/1.0/geolocation"/>
 		<feature name="http://api.phonegap.com/1.0/network"/>
 		<feature name="http://api.phonegap.com/1.0/notification"/>
@@ -71,21 +70,8 @@ Casualis Webs
 		<icon src="images/iconos/ios/icon_76.png" gap:platform="ios" width="76" height="76" />
 		<icon src="images/iconos/ios/icon_120.png" gap:platform="ios" width="120" height="120" />
 		<icon src="images/iconos/ios/icon_144.png" gap:platform="ios" width="152" height="152" />
-		<icon src="images/iconos/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
-		<icon src="images/iconos/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
-		<icon src="images/iconos/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
-		<icon src="images/iconos/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
-		<icon src="images/iconos/android/144.png" gap:platform="android" gap:density="xxhdpi" />
 		<icon src="icon.png" />
 		<gap:splash src="images/splash/ios/Default.png" gap:platform="ios" width="320" height="480" />
-		<gap:splash src="images/splash/ios/Default_at_2x.png" gap:platform="ios" width="640" height="960" />
-		<gap:splash src="images/splash/ios/Default_iphone5.png" gap:platform="ios" width="640" height="1136" />
-		<gap:splash src="images/splash/ios/Default-Portrait.png" gap:platform="ios" width="768" height="1024 " />
-		<gap:splash src="images/splash/ios/Default-Landscape.png" gap:platform="ios" width="1024" height="768" />
-		<gap:splash src="images/splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
-		<gap:splash src="images/splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
-		<gap:splash src="images/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
-		<gap:splash src="images/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 		<access origin="*.urbisclub.com" />
 		<access origin="http://www.esteticaclub.com" />
 		<access origin="*" />
