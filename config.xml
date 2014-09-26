@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "com.urbisclub"
-		versionCode="10"
-		version   = "1.2.0">
-		<name>Urbisclub</name>
-		<description>
-Sorteos y promociones Urbisclub.		</description>
+		id        = "com.esteticaclub"
+		versionCode="1.0"
+		version   = "1.0.0">
+		<name>Estética Club</name>
+		<description>Club para centros de estética</description>
 		<author href="http://www.casualiswebs.com" email="info@casualiswebs.com">
 Casualis Webs
 		</author>
@@ -88,20 +87,11 @@ Casualis Webs
 		<gap:splash src="images/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
 		<gap:splash src="images/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 		<access origin="*.urbisclub.com" />
-		<access origin="http://www.urbisclub.com" />
+		<access origin="http://www.esteticaclub.com" />
 		<access origin="*" />
 		<access origin="*.google.com" />
 		<access origin="*.googleapis.com" />
 		<access origin="*.gstatic.com" />
 		<access origin="*.twitter.com" />
 		<access origin="*.twitter.es" />
-		<access origin="*.pushwoosh.com" />
-		<gap:plugin name="com.phonegap.plugins.childbrowser" />
-		<gap:plugin name="com.phonegap.plugins.facebookconnect" >
-			<param name="APP_ID" value="306068086161250" /> 
-			<param name="APP_NAME" value="Sorteos y promociones Urbisclub" /> 
-		</gap:plugin>
-		<gap:plugin name="de.appplant.cordova.plugin.local-notification"  />
-		<gap:plugin name="com.phonegap.plugin.statusbar"  />
-		<gap:plugin name="com.phonegap.plugins.pushplugin"  />
 	</widget>
