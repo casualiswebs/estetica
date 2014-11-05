@@ -52,7 +52,7 @@ Casualis Webs
 		<feature name="http://api.phonegap.com/1.0/geolocation"/>
 		<feature name="http://api.phonegap.com/1.0/network"/>
 		<feature name="http://api.phonegap.com/1.0/notification"/>
-		<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+		<gap:plugin name="org.apache.cordova.device" version="0.2.8" />
 		<gap:plugin name="org.apache.cordova.device-motion"  />
 		<gap:plugin name="org.apache.cordova.device-orientation" />
 		<gap:plugin name="org.apache.cordova.dialogs"  />
